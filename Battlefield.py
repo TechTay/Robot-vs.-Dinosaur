@@ -1,6 +1,3 @@
-from urllib.robotparser import RobotFileParser
-
-
 from Robot import robot
 from Dinosaur import dinosaur
 
