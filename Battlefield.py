@@ -25,13 +25,16 @@ class battlefield:
         
                     Type "Enter" to begin''' '\n')
 
-        input(f'Who would you like to play as? The robot or dinosaur?' '\n')
-        if dinosaur:
-            print(f'You have chosen Dinosaur: {self.dinosaur.name}!' '\n')
-        else:
-            print(f'You have Chosen Robot: {self.robot.name}!' '\n')
-
-        
+        con_bool = True
+        while con_bool:
+            user_input = input(f'Would you like to be Dinosaur: {self.dinosaur.name}? Y or N' '\n')
+            if user_input == 'Y':
+                print(f'You have chosen Dinosaur: {self.dinosaur.name}!' '\n')
+                con_bool = False
+            else:
+                print(f'You have Chosen Robot: {self.robot.name}!' '\n')
+                con_bool = False
+            
 
         
         
