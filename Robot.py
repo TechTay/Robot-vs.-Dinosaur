@@ -1,7 +1,10 @@
+
+
+
 class robot:
 
     def __init__(self):
-        self.name = ()
+        self.name = 'Chicken'
         self.health = 100
         self.active_weapon = ()
 

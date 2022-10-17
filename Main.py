@@ -1,13 +1,23 @@
 from Battlefield import battlefield
-
+from Robot import robot
+from Dinosaur import dinosaur
+from Weapon import weapon
 
 # Start the game!
 print('\n')
-running_game = battlefield()
-running_game.Run_game = (f'Game is processing...Please wait' '\n')
-print(running_game.Run_game)
+battlefield_one = battlefield()
+battlefield_one.Run_game()
+battlefield_one.display_welcome()
 
-game_start = battlefield()
-game_start.game_intro = (f'Welcome to Robot vs. Dinosaur!' '\n')
-print(game_start.game_intro)
+
+
+weapon_one = weapon()
+weapon_two = weapon()
+weapon_three = weapon()
+
+weapon_one.weapons('Staff', 10)
+weapon_two.weapons('Sword', 12)
+weapon_three.weapons('Hammer', 15)
+
+battlefield_one.battle_phase()
 
