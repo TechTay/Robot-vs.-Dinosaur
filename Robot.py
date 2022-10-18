@@ -1,5 +1,5 @@
-
-
+from Weapon import weapon
+from Dinosaur import dinosaur
 
 class robot:
 
@@ -9,6 +9,8 @@ class robot:
         self.active_weapon = ()
 
     def weapon(self, name):
+        self.name = name
 
-        def attack(self, dinosaur):
-            pass
+    def attack(self, dinosaur):
+        if dinosaur.weapons == "" or dinosaur.weapons == "":
+           dinosaur.health_points -= self.attack_power * .12

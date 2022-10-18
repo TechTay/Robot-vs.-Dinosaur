@@ -44,7 +44,9 @@ class battlefield:
 
         
 
-        print(f'Now the match will begin!')
+        print(f'''
+        
+                    Match is now starting... Get ready!''')
        
 
     def display_winner(self):

@@ -1,8 +1,9 @@
 class weapon():
 
     def __init__(self):
-        
+        super()
+        pass
 
-        def weapons(self, name, attack_power):
-            weapons = ['Sword','Staff','Hammer']
+    def weapons(self, name, attack_power):
+           
         
