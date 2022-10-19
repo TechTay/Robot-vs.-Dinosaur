@@ -11,7 +11,7 @@ class battlefield:
 
     def Run_game(self):
         print(f'''
-                    Game is starting...Please wait''' '\n')
+                    Game is starting...Please Wait''' '\n')
 
         
         

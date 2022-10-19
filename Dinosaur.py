@@ -12,3 +12,4 @@ class dinosaur:
 
     def attack(self, robot):
         robot.health -= self.attack_power 
+        
