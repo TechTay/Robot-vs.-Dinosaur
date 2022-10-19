@@ -9,15 +9,11 @@ battlefield_one = battlefield()
 battlefield_one.Run_game()
 battlefield_one.display_welcome()
 
-
-
-weapon_one = weapon()
-weapon_two = weapon()
-weapon_three = weapon()
-
-weapon_one.weapons('Staff', 10)
-weapon_two.weapons('Sword', 12)
-weapon_three.weapons('Hammer', 15)
+# Match Begins!
 
 battlefield_one.battle_phase()
+
+# Display the winner!
+
+battlefield_one.display_winner()
 

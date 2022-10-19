@@ -1,16 +1,12 @@
 from Weapon import weapon
-from Dinosaur import dinosaur
 
 class robot:
 
     def __init__(self):
         self.name = 'Chicken'
         self.health = 100
-        self.active_weapon = ()
-
-    def weapon(self, name):
-        self.name = name
+        self.active_weapon = weapon('Sword', 22)
+        self.weapons_list = ['sword']
 
     def attack(self, dinosaur):
-        if dinosaur.weapons == "" or dinosaur.weapons == "":
-           dinosaur.health_points -= self.attack_power * .12
+        dinosaur.health -= self.active_weapon.attack_power 
